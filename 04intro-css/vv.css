@@ -1,0 +1,129 @@
+body{
+    .oleo-script-regular {
+        font-family: "Oleo Script", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .oleo-script-bold {
+        font-family: "Oleo Script", system-ui;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+}
+/* header of the document*/
+header{
+    background-color: rgb(111, 49, 49);
+    padding: .5rem 1.5%;
+}
+header h1{
+    margin: 0%;
+    color:rgb(247, 247, 247);
+}
+
+header p{ margin: 0%;
+    color:rgb(249, 249, 249);
+    letter-spacing: .7px;
+}
+
+/* navigation for the document*/
+nav{
+    background-color: rgba(16, 15, 15, 0.434);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(74, 84, 123);
+    font-weight: 700;
+    display: block;
+    padding: .3rem 2rem  ;
+}
+nav li.active a{
+    background-color:rgb(202, 18, 18) ;
+    color: rgb(158, 155, 142);
+}
+nav a:hover{
+    color: white;
+}   
+/*Styling the navigation of Main*/
+main{
+    padding: .9rem 0.9%;
+}
+main h1{
+    color: rgb(0, 0, 0);
+}
+main h2{
+    color: rgba(7, 0, 0, 0.948);
+    margin-bottom: .2rem;
+}
+main p{
+    color: #4c5f5f;
+    margin: 0 .3rem .3rem 0;
+    padding: 0%;
+    font-size: 1.2rem;
+}
+main ol{
+    padding: .5rem 3%;
+    background-color: rgb(91, 91, 91);
+    display: block;
+}
+main dl dt{
+    color: #000000;
+    font-weight: 700;
+
+}
+main dl dd{
+    color: #43759b;
+    font-size: .9rem;
+}
+main ul{
+    list-style-type: circle;
+}
+main ol{
+    list-style-type:circle;
+}
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+    color: #7d1c1c;
+}
+main ol li{  line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+    color: #faf9f9;}
+
+    main address{
+    font-style: normal;
+    background-color: rgb(202, 191, 145);
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #7d1c1c;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+main a:hover{
+    color: rgb(222,0,24);
+
+}
+
+/*footer section of the document*/
+
+footer{
+    background-color:rgb(253, 255, 254);
+    text-align: center;
+    color:#876e6e ;
+    padding: .9rem 1rem;
+    font-size: 1.5rem;
+}
+footer a{
+    color: #674747;
+}
