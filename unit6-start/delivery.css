@@ -107,7 +107,7 @@ margin-bottom: 1rem;
 .myForm  label, .myForm select, .myForm [type=text],.myForm [type=tel],.myForm textarea{
     display: block;
 }
-.myForm [type=text], .myForm [type=text],.myForm textarea,.myForm select{
+.myForm [type=text], .myForm [type=tel],.myForm textarea,.myForm select{
     border: 1px solid #888;
     padding: .3rem;
     width: 250px;
