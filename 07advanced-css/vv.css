@@ -211,19 +211,20 @@ div.gallery img:hover{
     .myForm label{
         margin:.4rem;
     }
-    .myForm  label, .myForm select, .myForm [type=text],.myForm [type=tel], .myForm [type=email],.myForm textarea{
-        display: block;
+     .myForm  label, .myForm select, .myForm [type=text],.myForm [type=tel], .myForm [type=email],.myForm textarea, .myForm [type=submit]{
+        display:flexbox;
     }
     .myForm [type=text], .myForm [type=tel],.myForm [type=email],.myForm textarea,.myForm select{
         border: 1px solid #c69696;
         padding: .3rem;
-        width: 255px;
+        width: 190px;
         border-radius: .1rem;
         font-family: "Oleo Script", system-ui;
         font-weight: 700;
     }
     .myForm textarea{
-        height: 8rem;
+        height: 3.7rem;
+        padding: .8rem .8rem;
     }
     .myForm :required{
         background-color: rgba(142, 52, 53, 0.1);
@@ -231,12 +232,12 @@ div.gallery img:hover{
     .myForm [type=submit]{
         background-color: #8c4b46;
         border: none;
-        padding: .9rem 1rem;
-        border-radius: 10px;
+        width: auto;
+        padding: .8rem .8rem;
+        border-radius: 7px;
         color: #ffffff;
-        margin: 1rem 0 0 .3vw;
+        margin: .9rem 0 0 .2vw;
     }
-    
 /*footer section of the document*/
 
 footer{
