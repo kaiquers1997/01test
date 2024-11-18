@@ -216,7 +216,7 @@ div.gallery img:hover{
     .myForm [type=text], .myForm [type=tel],.myForm [type=email],.myForm textarea,.myForm select{
         border: 1px solid #c69696;
         padding: .3rem;
-        width: 150px;
+        width: 145px;
         border-radius: .1rem;
         font-family: "Oleo Script", system-ui;
         font-weight: 700;
