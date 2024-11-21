@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+    <title>Vintage Vagabonds: Home</title>
+    <meta name="description" content="Blues Rock band">
+    <meta charset="UTF-8">
+    <meta name = "author" content="Kaique Silva">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vv.css">
+</head>
+<body>
+    <!---Start of the page header-->
+    <header>
+        <h1>Vintage Vagabonds</h1>
+        <p>Blues Rock Band of Provo, Utah since 2022!</p>
+    </header>
+  <!---Start of the page header-->
+    <nav> <!--Start of the page navegation-->
+        <ul>
+            <li><a href="index.html">Origins</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="vinyl.html"> Order your Vinyl</a></li>
+        
+        </ul>
+    </nav>
+    <!--Start of the page navegation-->
+    <main> <!--Start of the page content-->
+        <h1>Order your Vinyl with us!</h1>
+       
+        <form method="get" class="myForm" action="thankyou.html">
+            <fieldset>
+                <legend> Customer Details </legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Phone*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            <label>Email*<input type="email" name="email" required placeholder="kaiquerobert@gmail.com"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Delivery Method </legend>
+            <label> <input type="radio" name="method" value="store">Collect from the Store (3hrs)</label>
+            <label> <input type="radio" name="method" value="mail">Send through Email (3days)</label>
+            <label> <input type="radio" name="method" value="digital">Buy and Download digitally (6min)</label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Delivery Location Options </legend>
+           <label> <input type="checkbox" name="store" value="chosen"> Local Music Store</label>
+           <label> <input type="checkbox" name="mail" value="chosen"> Mailing</label>
+           <label> <input type="checkbox" name="streaming" value="chosen"> Streaming</label>
+           <label> <input type="checkbox" name="digital" value="chosen"> Digital format</label>
+           </fieldset>
+           <fieldset>
+
+            <legend> Select Time Options</legend>
+            <select name="time">
+            <option value="none">Please Select Options</option>
+            <option value="morning">Between 7:00am and 12:00pm</option>
+            <option value="afternoon">Between 2:00pm and 6:00pm</option>
+            <option value="evening">Between 7:00pm and 10:30pm</option>
+       
+        </select>
+        </fieldset>
+        
+<label> Comments
+    <textarea class="comments" name="comments"></textarea>
+</label>
+ 
+
+            <input type="submit" value="Send Request">
+            
+        </form>
+        
+        <footer> <!--Start of the page footer-->
+            <p>&copy;Vintage Vagabonds &bull; 2024 &bull; <a href="mailto:kaiqueroberto373@gmail.com">Email Us</a> </p>
+        </footer>
+         <!--Start of the page footer-->
+    </main>
+</body>
