@@ -266,25 +266,25 @@ div.gallery img:hover{
       
     }
 
-table.our-activites{
+table.list-of-prices{
     width: 100%;
     border-collapse: collapse;
 }
 
-table.our-activites th{
+table.list-of-prices th{
     background-color: #8c4b46;
     color: white;
     padding: .5rem 2vw;
     text-align: left;
 }
-table.our-activites td{
+table.list-of-pricess td{
     color: #000000;
     padding: .4rem 2vw;
 }
-table.our-activites tr:nth-child(odd){
+table.list-of-prices tr:nth-child(odd){
     background-color: #f7f7f7;
 }
-table.our-activites tr:hover{
+table.list-of-prices tr:hover{
     background-color: rgba(70,30,22,0.1);
 }
 
