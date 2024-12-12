@@ -1,0 +1,197 @@
+body {
+  
+
+    
+      font-family: "Agu Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "MORF" 0;
+    
+}
+/* header stuff here */
+header {
+    
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #007d1b;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+header p {
+    margin: 0;
+    color: #5e8c38;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #eeff00;
+}
+
+nav .active a {
+    background-color: #5a765c;
+    color: #ffffff;
+}
+nav a:hover {
+    background-color: #ccd5d7;
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #008e05;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+}
+main h2 {
+    color: #4a5e00;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #445d7a;
+    margin: 0 0 .8rem 0;
+    line-height: 150%
+}
+main a {
+    color: #14983c;
+}
+/*Small Screens*/
+@media only screen and (max-width: 600px) {
+    /* this the end of the media query*/
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        display: flex;
+    }
+    nav a {
+        display: block;
+        padding: .20rem 1rem .20rem .20rem;
+        font-size: .8rem;
+        text-decoration: none;
+        color: #04542c;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+  
+
+    nav .active a{
+        background-color: #c3e079aa;
+        color: #ffffff;
+        background-image: linear-gradient(to bottom, #318404, #0b5206);
+    }
+    
+
+}
+
+    /*Big Screens*/
+    @media only screen and (min-width: 601px) {
+    /* this the end of the media query*/
+    nav{
+        background-color: rgba(155, 157, 33, 0.708);
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0 2%;
+        margin: 0;
+        display: flex;
+    }
+    nav a{
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: rgb(39, 80, 0);
+        font-weight: 700;
+        display: block;
+        padding: .3rem 2rem  ;
+    }
+    nav li.active a{
+        background-color:rgba(116, 131, 61, 0.377) ;
+        color: rgb(0, 0, 0); 
+    }
+    nav a:hover{
+        color: rgb(163, 155, 14);
+    }   
+    }
+.wrapimage {
+    width: 50%;
+    margin: 0;
+    float: right;
+    margin-left: 2vw;
+}
+.wrapimage img {
+    width: 100%;
+    height: auto;
+}
+.wrapimage figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+.form fieldset{
+    border: 1px solid #5d6609;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    }
+    .form legend{
+        color: #4d7732;
+        font-size: .8rems;
+    }
+    .form label{
+        margin:.5rem;
+    }
+     .form select, .form [type=text],.form [type=tel],.form [type=email],.form textarea{
+        display: block;
+    }
+    .form [type=text], .form [type=tel],.form [type=email],.form textarea,.form select{
+        border: 1px solid #718c3a;
+        padding: .3rem;
+        width: 250px;
+        border-radius: .3rem;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 200;
+    }
+    .form textarea{
+        height: 6rem;
+        color: #4f862d;
+    
+        
+    }
+    .form :required{
+        background-color: rgba(51, 146, 156, 0.286);
+    }
+    .form [type=submit]{
+        background-color: #268116;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        color: #ffffff;
+        margin: 1rem 0 0 1vw;
+    }
+    .deviliverymethod{
+        display: block;
+    }
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #024873;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    clear: both;
+}
+footer a {
+    color: #024873;
+}
